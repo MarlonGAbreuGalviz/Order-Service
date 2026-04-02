@@ -37,7 +37,7 @@ public class OrderService {
         try {
 
             String pago = rest.postForObject(
-                    "http://localhost:8083/pagos",
+                    "http://localhost:8083/payment",
                     order,
                     String.class
             );
